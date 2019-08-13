@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "queue-items",
+      "connection": "slotqueuetrigger_STORAGE"
+    },
+    {
+      "name": "outputQueueItem",
+      "type": "queue",
+      "direction": "out",
+      "queueName": "completed-items",
+      "connection": "slotqueuetrigger_STORAGE"
+    }
+  ]
+}
