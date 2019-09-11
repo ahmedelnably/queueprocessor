@@ -39,7 +39,7 @@ jobs:
       uses: Azure/functions-action@master
       id: fa
       with:
-        app-name: aelnably-test-gh-actions-1
+        app-name: metrics-testing-dedicated
         # If your function app project is not located in your repository's root
         # Please consider prefixing the project path in this package parameter
         package: '.'
