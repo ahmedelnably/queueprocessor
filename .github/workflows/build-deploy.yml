@@ -39,7 +39,7 @@ jobs:
       uses: Azure/functions-action@master
       id: fa
       with:
-        app-name: metrics-testing-dedicated
+        app-name: metrics-testing-consumption
         # If your function app project is not located in your repository's root
         # Please consider prefixing the project path in this package parameter
         package: '.'
