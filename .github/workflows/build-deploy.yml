@@ -6,6 +6,8 @@
 
 name: Linux_Node_Workflow
 
+$appname = metrics-testing-consumption
+
 on:
   push:
     branches:
