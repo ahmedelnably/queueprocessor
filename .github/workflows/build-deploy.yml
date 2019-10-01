@@ -4,9 +4,9 @@
 # 3. Add this yaml file to your project's .github/workflows/
 # 4. Push your local project to your Github Repository
 
-name: Linux_Node_Workflow
-
 $appname = metrics-testing-consumption
+
+name: Linux_Node_Workflow
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
       uses: Azure/functions-action@master
       id: fa
       with:
-        app-name: metrics-testing-consumption
+        app-name: $appname
         # If your function app project is not located in your repository's root
         # Please consider prefixing the project path in this package parameter
         package: '.'
